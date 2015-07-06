@@ -4,6 +4,8 @@ RUN apt-key adv --keyserver keyserver.ubuntu.com --recv E56151BF && echo deb htt
 
 RUN apt-get install -y wget && wget -qO- https://get.docker.com/ | sh
 
+RUN apt-get install -y curl
+
 CMD ["/usr/sbin/mesos-slave"]
 
 ENV MESOS_WORK_DIR /tmp/mesos
