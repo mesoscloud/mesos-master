@@ -37,7 +37,7 @@ docker run -d \
 
 [![](https://badge.imagelayers.io/mesoscloud/mesos-slave:0.22.1-centos-7.svg)](https://imagelayers.io/?images=mesoscloud/mesos-slave:0.22.1-centos-7)
 
-Usage example, e.g.
+Usage example:
 
 ```
 docker run -d \
