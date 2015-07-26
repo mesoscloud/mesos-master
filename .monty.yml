@@ -4,8 +4,13 @@
     - mesoscloud/mesos-master:0.22.1-centos
     - mesoscloud/mesos-master:0.22.1
     - mesoscloud/mesos-master:latest
-    
+
 - build: 0.22.1/ubuntu/14.04
   image:
     - mesoscloud/mesos-master:0.22.1-ubuntu-14.04
     - mesoscloud/mesos-master:0.22.1-ubuntu
+
+
+- tests:
+    - cmd: mesos-master --version | grep ^mesos
+    - cmd: test $MESOS_WORK_DIR = /tmp/mesos
