@@ -23,5 +23,4 @@
 
 
 - tests:
-    - cmd: mesos-master --version | grep ^mesos
-    - cmd: test $MESOS_WORK_DIR = /tmp/mesos
+    - cmd: mesos-master --version
