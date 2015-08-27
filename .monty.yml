@@ -24,3 +24,9 @@
 
 - tests:
     - cmd: mesos-master --version
+
+    - cmd: test -z "`echo $MESOS_AUTHENTICATE`"
+
+    - cmd: test "`echo $MESOS_AUTHENTICATE`" = true
+      env:
+        - SECRET=password

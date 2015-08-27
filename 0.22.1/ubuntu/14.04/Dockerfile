@@ -10,3 +10,7 @@ CMD ["/usr/sbin/mesos-master"]
 ENV MESOS_WORK_DIR /tmp/mesos
 
 VOLUME /tmp/mesos
+
+COPY entrypoint.sh /
+
+ENTRYPOINT ["/entrypoint.sh"]

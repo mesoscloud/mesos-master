@@ -21,6 +21,8 @@ docker run -d \
 --name mesos-master --net host --restart always mesoscloud/mesos-master:0.23.0-centos-7
 ```
 
+Set environment variable `SECRET` to enable framework and slave authentication.
+
 ## Ubuntu
 
 [![](https://badge.imagelayers.io/mesoscloud/mesos-master:0.23.0-ubuntu-14.04.svg)](https://imagelayers.io/?images=mesoscloud/mesos-master:0.23.0-ubuntu-14.04)
@@ -35,3 +37,5 @@ docker run -d \
 -e MESOS_ZK=zk://node-1:2181,node-2:2181,node-3:2181/mesos \
 --name mesos-master --net host --restart always mesoscloud/mesos-master:0.23.0-ubuntu-14.04
 ```
+
+Set environment variable `SECRET` to enable framework and slave authentication.
