@@ -1,3 +1,7 @@
+[![Build Status](https://travis-ci.org/mesoscloud/mesos-master.svg?branch=master)](https://travis-ci.org/mesoscloud/mesos-master)
+[![Docker Stars](https://img.shields.io/docker/stars/mesoscloud/mesos-master.svg)](https://hub.docker.com/r/mesoscloud/mesos-master/)
+[![Docker Pulls](https://img.shields.io/docker/pulls/mesoscloud/mesos-master.svg)](https://hub.docker.com/r/mesoscloud/mesos-master/)
+
 # mesos-master
 
 [![Join the chat at https://gitter.im/mesoscloud/mesoscloud](https://badges.gitter.im/mesoscloud/mesoscloud.svg)](https://gitter.im/mesoscloud/mesoscloud?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
