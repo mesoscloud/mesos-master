@@ -1,9 +1,11 @@
 FROM ubuntu:14.04
+MAINTAINER Peter Ericson <pdericson@gmail.com>
 
 RUN apt-key adv --keyserver keyserver.ubuntu.com --recv E56151BF && \
 echo deb http://repos.mesosphere.io/ubuntu trusty main > /etc/apt/sources.list.d/mesosphere.list && \
 apt-get update && \
-apt-get -y install mesos=0.28.0-2.0.16.ubuntu1404
+apt-get --no-install-recommends -y install mesos=0.28.0-2.0.16.ubuntu1404 && \
+rm -rf /var/lib/apt/lists/*
 
 CMD ["/usr/sbin/mesos-master"]
 
