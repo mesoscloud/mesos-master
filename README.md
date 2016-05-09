@@ -1,6 +1,4 @@
-[![Build Status](https://travis-ci.org/mesoscloud/mesos-master.svg?branch=master)](https://travis-ci.org/mesoscloud/mesos-master)
-[![Docker Stars](https://img.shields.io/docker/stars/mesoscloud/mesos-master.svg)](https://hub.docker.com/r/mesoscloud/mesos-master/)
-[![Docker Pulls](https://img.shields.io/docker/pulls/mesoscloud/mesos-master.svg)](https://hub.docker.com/r/mesoscloud/mesos-master/)
+[![Build Status](https://travis-ci.org/mesoscloud/mesos-master.svg?branch=master)](https://travis-ci.org/mesoscloud/mesos-master) [![Docker Stars](https://img.shields.io/docker/stars/mesoscloud/mesos-master.svg)](https://hub.docker.com/r/mesoscloud/mesos-master/) [![Docker Pulls](https://img.shields.io/docker/pulls/mesoscloud/mesos-master.svg)](https://hub.docker.com/r/mesoscloud/mesos-master/)
 
 # mesos-master
 
