@@ -14,5 +14,5 @@ script:
     set -e
     for path in `find . -name \*.sh`; do
         echo $path
-        docker run --rm -i -v "$PWD":/mnt lukasmartinelli/hadolint shellcheck /mnt/$path
+        docker run --rm -i -v "$PWD":/mnt pdericson/hadolint shellcheck /mnt/$path
     done
