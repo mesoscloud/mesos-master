@@ -9,7 +9,7 @@ RUN curl -fLsS -o /usr/local/bin/dumb-init https://github.com/Yelp/dumb-init/rel
 RUN apt-key adv --keyserver keyserver.ubuntu.com --recv E56151BF && \
 echo deb http://repos.mesosphere.io/ubuntu trusty main > /etc/apt/sources.list.d/mesosphere.list && \
 apt-get update && \
-apt-get --no-install-recommends -y install mesos=0.24.1-0.2.35.ubuntu1404 && \
+apt-get --no-install-recommends -y install mesos=0.24.2-2.0.17.ubuntu1404 && \
 rm -rf /var/lib/apt/lists/*
 
 CMD ["/usr/sbin/mesos-master"]

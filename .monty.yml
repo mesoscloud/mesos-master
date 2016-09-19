@@ -21,6 +21,17 @@
     - mesoscloud/mesos-master:0.28.0-ubuntu-14.04
     - mesoscloud/mesos-master:0.28.0-ubuntu
 
+- build: 0.24.2/centos/7
+  image:
+    - mesoscloud/mesos-master:0.24.2-centos-7
+    - mesoscloud/mesos-master:0.24.2-centos
+    - mesoscloud/mesos-master:0.24.2
+
+- build: 0.24.2/ubuntu/14.04
+  image:
+    - mesoscloud/mesos-master:0.24.2-ubuntu-14.04
+    - mesoscloud/mesos-master:0.24.2-ubuntu
+
 - build: 0.24.1/centos/7
   image:
     - mesoscloud/mesos-master:0.24.1-centos-7
